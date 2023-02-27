@@ -1,0 +1,38 @@
+body{
+    background-image:url(https://i.pinimg.com/originals/56/30/d5/5630d5c8e555ae2dc0d750683e8ae2bd.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .container{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30%;
+    height: 30%;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  button{
+    background-color: rgb(255, 145, 0);
+    background-color: rgba(255, 255, 255, 0.66);
+    color: white;
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+  }
+  button:hover{
+    background-color: rgba(154, 132, 255, 0.845);
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  }
